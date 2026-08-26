@@ -22,6 +22,7 @@
 ```javascript
 const lucas = {
   role:      "Full-Stack Developer",
+  company:   "Adalink · plataforma Adaflow",
   focus:     "Aplicações web com IA integrada",
   location:  "Diadema, São Paulo — Brasil 🇧🇷",
 
@@ -109,6 +110,35 @@ Não é chamada de API solta. O padrão que eu uso em produção:
 **Na prática:** classificar antes de gerar (modelo barato filtra o caro), RAG com base
 vetorizada pra resposta não alucinar, e fallback humano sempre que a confiança cai.
 Log de tudo — IA em produção sem observabilidade é aposta.
+
+---
+
+## Experiência
+
+### Adalink — Desenvolvedor Júnior
+`Abr 2026 — Atual`
+
+Desenvolvimento de aplicativos e software na **Adaflow**, plataforma SaaS multi-agente de IA
+com arquitetura multi-tenant distribuída em microsserviços.
+
+- Features full-stack de ponta a ponta — do banco à interface
+- Integração de IA ao produto: busca semântica com pgvector, fluxos de RAG e refinamento de prompts dos agentes
+- Testes exploratórios e validação de qualidade dos agentes com datasets sintéticos de stress test
+- Documentação técnica de decisões de arquitetura (ADRs)
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+
+### Freelancer — Desenvolvedor Full-Stack
+`Mar 2024 — Atual`
+
+Projetos sob demanda de desenvolvimento e IA aplicada para clientes de pequeno e médio porte.
 
 ---
 
