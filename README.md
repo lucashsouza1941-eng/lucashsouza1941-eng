@@ -167,11 +167,11 @@ protótipo em HTML único.
 
 <br/><br/>
 
-<img src="https://ghchart.rshah.org/38BDF8/lucashsouza1941-eng" alt="Contribuições" width="90%"/>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/lucashsouza1941-eng/lucashsouza1941-eng/output/snake.svg" alt="Snake"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucashsouza1941-eng/lucashsouza1941-eng/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucashsouza1941-eng/lucashsouza1941-eng/output/snake.svg"/>
+  <img alt="Snake - grafico de contribuicoes" src="https://raw.githubusercontent.com/lucashsouza1941-eng/lucashsouza1941-eng/output/snake.svg"/>
+</picture>
 
 </div>
 
