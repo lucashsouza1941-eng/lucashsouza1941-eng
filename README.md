@@ -1,229 +1,148 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:1E3A8A&height=130&section=header"/>
+<img src="assets/header.svg" alt="Lucas Henrique · Full-Stack Developer · IA Aplicada a Negócios" width="100%"/>
 
-# Lucas Henrique
-
-### Full-Stack Developer · IA Aplicada a Negócios
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%7C+React+%C2%B7+Next.js+%C2%B7+Node.js;IA+Aplicada+%7C+LLMs+%C2%B7+RAG+%C2%B7+Agentes+Inteligentes;Do+discovery+ao+deploy%2C+ponta+a+ponta"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Full-Stack+%7C+React+%C2%B7+Next.js+%C2%B7+Node.js+%C2%B7+Python;IA+aplicada+%7C+RAG+%C2%B7+Agentes+%C2%B7+Avalia%C3%A7%C3%A3o+de+LLMs;Do+discovery+ao+deploy%2C+ponta+a+ponta;Sistemas+em+produ%C3%A7%C3%A3o+para+clientes+reais" alt="Typing SVG"/>
 
 <br/>
 
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lucashsouza1941-eng.github.io/portfolio-lucas/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucashsouza.1941@gmail.com)
-![Profile Views](https://komarev.com/ghpvc/?username=lucashsouza1941-eng&style=for-the-badge&color=38BDF8&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=lucashsouza1941-eng&style=for-the-badge&color=1E3A8A&label=VISITAS)
 
 </div>
 
----
+<img src="assets/divisor.svg" width="100%"/>
 
-## Sobre mim
+## 👋 Sobre mim
 
-```javascript
+```ts
 const lucas = {
-  role:      "Full-Stack Developer",
-  company:   "Adalink · plataforma Adaflow",
-  focus:     "Aplicações web com IA integrada",
-  location:  "Diadema, São Paulo — Brasil 🇧🇷",
-
-  stack: {
-    frontend: ["React", "Next.js", "TypeScript", "TailwindCSS"],
-    backend:  ["Node.js", "Express", "Python", "FastAPI"],
-    data:     ["PostgreSQL", "MongoDB", "Prisma", "Redis", "pgvector"],
-    ai:       ["OpenAI API", "LangChain", "RAG", "Prompt Engineering"]
-  },
-
-  currently:  "Construindo agentes e assistentes RAG que rodam em produção",
-  background: "8+ anos atendendo cliente antes de migrar pra tech",
-  edge:       "Traduzir dor de negócio em escopo técnico viável",
-
-  philosophy: "Código que ninguém usa não resolve problema nenhum."
+  cargo:     "Full-Stack Developer @ Adalink (plataforma Adaflow)",
+  freela:    "Sistemas sob medida para pequenos negócios e ONGs",
+  foco:      "Aplicações web com IA integrada — do discovery ao deploy",
+  agora:     ["ORION, meu assistente pessoal 24/7", "ATLAS, um Business OS multi-tenant"],
+  bagagem:   "8+ anos em atendimento consultivo antes de migrar pra tech",
+  diferencial: "Traduzir dor de negócio em escopo técnico viável",
+  filosofia: "Código que ninguém usa não resolve problema nenhum.",
 };
 ```
 
-> **O diferencial:** eu não entrego só a feature. Faço o discovery, entendo o processo do
-> cliente, escrevo a documentação e coloco em produção. Os 8 anos em atendimento consultivo
-> não são linha perdida no currículo — são o motivo de eu levantar requisito sem retrabalho.
+<img src="assets/divisor.svg" width="100%"/>
 
----
-
-## Stack
-
-<div align="center">
-
-<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="62" height="62"/>
-&nbsp;&nbsp;
-<img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="62" height="62"/>
-&nbsp;&nbsp;
-<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="62" height="62"/>
-&nbsp;&nbsp;
-<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="62" height="62"/>
-&nbsp;&nbsp;
-<img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="62" height="62"/>
-&nbsp;&nbsp;
-<img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="62" height="62"/>
-&nbsp;&nbsp;
-<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="62" height="62"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,nodejs,express,python,fastapi,postgres,mongodb,prisma,redis,tailwind,docker,git,vercel,postman&perline=8"/>
-
-<br/><br/>
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-</div>
-
----
-
-## Como eu integro IA numa aplicação
-
-Não é chamada de API solta. O padrão que eu uso em produção:
-
-```
-                    ┌─────────────────────┐
-   Usuário  ───────▶│   App (Next.js)     │
-   WhatsApp ───────▶│   API (Node/FastAPI)│
-   E-mail   ───────▶└──────────┬──────────┘
-                               │
-                    ┌──────────▼──────────┐
-                    │   Camada de IA      │
-                    │  ┌───────────────┐  │
-                    │  │ Classificação │  │  ── intenção, prioridade
-                    │  ├───────────────┤  │
-                    │  │   RAG         │  │  ── pgvector / embeddings
-                    │  ├───────────────┤  │
-                    │  │  Orquestração │  │  ── LangChain / agentes
-                    │  └───────────────┘  │
-                    └──────────┬──────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              ▼                ▼                ▼
-        PostgreSQL         Redis           Integrações
-        (estado)          (cache)      (CRM, gateway, API)
-```
-
-**Na prática:** classificar antes de gerar (modelo barato filtra o caro), RAG com base
-vetorizada pra resposta não alucinar, e fallback humano sempre que a confiança cai.
-Log de tudo — IA em produção sem observabilidade é aposta.
-
----
-
-## Experiência
-
-### Adalink — Desenvolvedor Júnior
-`Abr 2026 — Atual`
-
-Desenvolvimento de aplicativos e software na **Adaflow**, plataforma SaaS multi-agente de IA
-com arquitetura multi-tenant distribuída em microsserviços.
-
-- Features full-stack de ponta a ponta — do banco à interface
-- Integração de IA ao produto: busca semântica com pgvector, fluxos de RAG e refinamento de prompts dos agentes
-- Testes exploratórios e validação de qualidade dos agentes com datasets sintéticos de stress test
-- Documentação técnica de decisões de arquitetura (ADRs)
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-
-### Freelancer — Desenvolvedor Full-Stack
-`Mar 2024 — Atual`
-
-Projetos sob demanda de desenvolvimento e IA aplicada para clientes de pequeno e médio porte.
-
----
-
-## Projetos
+## 🚀 Projetos em destaque
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### 💬 [Assistente RAG](https://github.com/lucashsouza1941-eng/Assistente-RAG)
-`TypeScript` `OpenAI API` `pgvector`
-
-Assistente com RAG respondendo a partir de base de conhecimento
-vetorizada, com fallback para atendimento humano.
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 [Multi-Agente — Logística](https://github.com/lucashsouza1941-eng/projeto-1-multi-agente-logistica)
-`TypeScript` `LangChain` `PostgreSQL`
-
-Orquestração de agentes de IA para triagem de e-mails, geração de
-relatórios e escalonamento automático.
-
-</td>
+<td width="50%"><a href="https://lucashsouza1941-eng.github.io/portfolio-lucas/"><img src="assets/card-orion.svg" width="100%" alt="ORION"/></a></td>
+<td width="50%"><a href="https://lucashsouza1941-eng.github.io/portfolio-lucas/"><img src="assets/card-atlas.svg" width="100%" alt="ATLAS"/></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 🎨 [Portfólio](https://github.com/lucashsouza1941-eng/portfolio-lucas)
-`TypeScript` `Next.js` `TailwindCSS`
-
-Portfólio pessoal com os projetos, stack e formas de contato.
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 [Onboarding Tour — Adalink](https://github.com/lucashsouza1941-eng/adalink-onboarding-tour)
-`HTML` `JavaScript`
-
-Tour interativo de onboarding da plataforma Adalink (Adaflow),
-protótipo em HTML único.
-
-</td>
+<td width="50%"><a href="https://lucashsouza1941-eng.github.io/portfolio-lucas/"><img src="assets/card-dindin.svg" width="100%" alt="Din Din"/></a></td>
+<td width="50%"><a href="https://github.com/lucashsouza1941-eng/agenda-helaine"><img src="assets/card-helaine.svg" width="100%" alt="Helaine Tranças"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/lucashsouza1941-eng/regua-de-avaliacao"><img src="assets/card-regua.svg" width="100%" alt="Régua de Avaliação"/></a></td>
+<td width="50%"><a href="https://github.com/lucashsouza1941-eng/site-costa-da-mina"><img src="assets/card-costa.svg" width="100%" alt="Instituto Costa da Mina"/></a></td>
 </tr>
 </table>
 
----
+<details>
+<summary><b>➕ Outros projetos</b></summary>
+<br/>
 
-## GitHub
+| Projeto | O que é | Stack |
+|---|---|---|
+| 🏢 Painel Interno | Adiantamentos, VT, reembolso, contas a pagar, tarefas, agenda e chat | Next.js · Prisma · Auth.js |
+| 🎨 [Jhonatham Cosmo](https://github.com/lucashsouza1941-eng/jhonatham-cosmo) | Portfólio de arte autoral com painel de admin | Astro · Keystatic |
+| 💬 [Assistente RAG](https://github.com/lucashsouza1941-eng/Assistente-RAG) | Assistente para clínica odontológica com fallback humano | FastAPI · pgvector |
+| 🤖 [LogiAgent](https://github.com/lucashsouza1941-eng/projeto-1-multi-agente-logistica) | Multi-agente para triagem de e-mails e relatórios | TypeScript · Prisma |
+| 🧭 [Onboarding Tour](https://github.com/lucashsouza1941-eng/adalink-onboarding-tour) | Tour interativo da plataforma Adaflow | HTML · JS |
+
+</details>
+
+<img src="assets/divisor.svg" width="100%"/>
+
+## 🧠 Como eu integro IA numa aplicação
+
+<div align="center">
+<img src="assets/fluxo-ia.svg" width="100%" alt="Fluxo: entradas → API → classificação, RAG e orquestração → banco, cache e integrações"/>
+</div>
+
+> **Na prática:** classificar antes de gerar (modelo barato filtra o caro), RAG pra resposta não alucinar,
+> fallback humano quando a confiança cai — e log de tudo. IA em produção sem observabilidade é aposta.
+
+<img src="assets/divisor.svg" width="100%"/>
+
+## 🛠️ Stack
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lucashsouza1941-eng&theme=tokyonight" height="200"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lucashsouza1941-eng&theme=tokyonight" height="200"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,nodejs,python,fastapi,tailwind,astro&perline=8" alt="Front e back"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,supabase,prisma,redis,docker,vercel,git,vitest&perline=8" alt="Dados e infra"/>
 
 <br/><br/>
+
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+
+</div>
+
+<img src="assets/divisor.svg" width="100%"/>
+
+## 💼 Experiência
+
+**Adalink — Desenvolvedor Full-Stack** · `abr 2026 — atual`
+Plataforma **Adaflow**, SaaS multi-agente de IA, multi-tenant e em microsserviços.
+Features ponta a ponta, busca semântica com pgvector, fluxos de RAG, refinamento de prompts,
+stress test de agentes com datasets sintéticos e ADRs.
+
+**Freelancer — Desenvolvedor Full-Stack** · `mar 2024 — atual`
+Sistemas sob medida para pequenos negócios e ONGs — agendamento, sites institucionais,
+painéis internos e automações com IA.
+
+<img src="assets/divisor.svg" width="100%"/>
+
+## 📊 GitHub
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucashsouza1941-eng&layout=compact&hide_border=true&bg_color=0b1020&title_color=38BDF8&text_color=cbd5e1&locale=pt-br" alt="Linguagens"/>
+
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=lucashsouza1941-eng&bg_color=0b1020&color=94a3b8&line=38BDF8&point=e0f2fe&area=true&area_color=0EA5E9&hide_border=true&title_color=38BDF8&custom_title=Contribui%C3%A7%C3%B5es%20nos%20%C3%BAltimos%2030%20dias" alt="Atividade" width="100%"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucashsouza1941-eng/lucashsouza1941-eng/output/snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucashsouza1941-eng/lucashsouza1941-eng/output/snake.svg"/>
-  <img alt="Snake - grafico de contribuicoes" src="https://raw.githubusercontent.com/lucashsouza1941-eng/lucashsouza1941-eng/output/snake.svg"/>
+  <img alt="Snake comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/lucashsouza1941-eng/lucashsouza1941-eng/output/snake.svg"/>
 </picture>
 
 </div>
 
----
+<img src="assets/divisor.svg" width="100%"/>
 
-## Como eu trabalho
+## 🤝 Como eu trabalho
 
 | | |
 |---|---|
-| **Discovery primeiro** | Entender o processo antes de escrever a primeira linha |
-| **Documentação junto** | README, decisões e trade-offs escritos enquanto o código nasce |
-| **Entrega ponta a ponta** | Do banco ao deploy — não paro na feature |
-| **Valor mensurável** | Se não reduz tempo, custo ou erro, é enfeite |
-
----
+| 🔎 **Discovery primeiro** | Entender o processo antes de escrever a primeira linha |
+| 📝 **Documentação junto** | README, ADRs e trade-offs escritos enquanto o código nasce |
+| 🚢 **Entrega ponta a ponta** | Do banco ao deploy — não paro na feature |
+| 📈 **Valor mensurável** | Se não reduz tempo, custo ou erro, é enfeite |
 
 <div align="center">
 
-### Aberto a oportunidades Full-Stack e projetos de IA aplicada
+### Bora construir algo que as pessoas usem?
 
+[![Portfólio](https://img.shields.io/badge/Ver_portf%C3%B3lio-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lucashsouza1941-eng.github.io/portfolio-lucas/)
 [![Email](https://img.shields.io/badge/lucashsouza.1941@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucashsouza.1941@gmail.com)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:1E3A8A&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:1E3A8A&height=120&section=footer&animation=twinkling" width="100%"/>
 
 </div>
